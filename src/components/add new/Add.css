@@ -1,0 +1,52 @@
+.add_form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #cdcdcd94;
+}
+.add_form form{
+    padding: 1.5rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 1.5rem;
+}
+.add_form form h3{
+    margin: 0;
+    margin-bottom: 1.5rem;
+}
+.add_form form input{
+    width: 25vw;
+    padding: 0.25rem;
+    border-radius: 0.3rem;
+    outline: none;
+    border: 1px solid gray;
+    margin: 0.25rem;
+
+}
+.btn_container{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+}
+.btn_container button{
+    width: 5rem;
+    padding: 0.5rem 0.75rem;
+    color: white;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+}
+.btn_container .save_btn{
+    background-color: rgb(5, 79, 9);
+}
+.btn_container .cancel_btn{
+    background-color: rgb(214, 16, 16);
+}
